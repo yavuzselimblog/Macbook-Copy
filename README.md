@@ -31,7 +31,7 @@ Bu projeyi derlemek için devasa Xcode'u kurmanıza gerek yok, sadece komut sat�
 
 1. Projeyi bilgisayarınıza indirin (clone):
    ```bash
-   git clone https://github.com/yavuzselimblog/softwarencodercopylist.git
+   git clone https://github.com/yavuzselimblog/Macbook-Copy.git
    ```
 2. Derleme script'ini çalıştırın:
    ```bash
@@ -69,7 +69,7 @@ Currently, you can build this natively using the provided shell script without n
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yavuzselimblog/softwarencodercopylist.git
+   git clone https://github.com/yavuzselimblog/Macbook-Copy.git
    ```
 2. Run the build script:
    ```bash
