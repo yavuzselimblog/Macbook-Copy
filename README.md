@@ -9,12 +9,48 @@
 ---
 
 <div align="center">
-  <a href="#english">🇬🇧 English</a> &nbsp;|&nbsp; <a href="#turkish">🇹🇷 Türkçe</a>
+   <a href="#turkish">🇹🇷 Türkçe</a> &nbsp;|&nbsp;  <a href="#english">🇬🇧 English</a>
 </div>
 
 ---
 
+<h2 id="turkish">🇹🇷 Türkçe</h2>
+
+**softwarencodercopylist**, macOS için geliştirdiğim süper hafif bir üst menü çubuğu (menu bar) uygulamasıdır. Kopyaladığınız her şeyi takip eder. Tamamen macOS'un kendi yerel dili Swift ile geliştirilmiştir ve son 100 kopyalama işleminizi hafızasında tutar.
+
+### ✨ Özellikler
+- **🚀 Ultra Hızlı:** Tamamen Swift ve AppKit ile kodlandı – ağır web tabanlı (Electron vb.) teknolojiler içermez!
+- **🗂️ 100 Öğe Hafızası:** Kopyaladığınız en son 100 metni sizin için saklar.
+- **🖱️ Menü Çubuğunda Yaşar:** Mac'inizin sağ üst köşesindeki menüye gizlice yerleşir, kalabalık yapmaz.
+- **🧹 Tek Tıkla Temizlik:** Hafızayı anında sıfırlama seçeneği.
+- **🚫 Dock'u İşgal Etmez:** Alt taraftaki (Dock) uygulama simgelerinizin arasında kalabalık yaratmaz. Arka planda sessiz çalışır.
+- **🎨 Özel İkon:** `copy.png` tabanlı özel menü ikonu.
+
+### 🛠️ Kurulum ve Kullanım
+Bu projeyi derlemek için devasa Xcode'u kurmanıza gerek yok, sadece komut satırı yeterli!
+
+1. Projeyi bilgisayarınıza indirin (clone):
+   ```bash
+   git clone https://github.com/yourusername/softwarencodercopylist.git
+   ```
+2. Derleme script'ini çalıştırın:
+   ```bash
+   cd softwarencodercopylist
+   sh build.sh
+   ```
+3. Oluşan `softwarencodercopylist.app` uygulamasına çift tıklayarak çalıştırın! 🚀
+
+### 💻 Kullanılan Teknolojiler
+- Swift dökümanı
+- AppKit (Cocoa)
+- macOS Menu Bar API (`NSStatusItem`)
+- Shell / Bash Scripts (İkon oluşturma ve `.app` derleme işlemleri için)
+
+---
+
 <br>
+
+
 
 <h2 id="english">🇬🇧 English</h2>
 
@@ -50,41 +86,9 @@ Currently, you can build this natively using the provided shell script without n
 
 ---
 
+
+
 <br>
-
-<h2 id="turkish">🇹🇷 Türkçe</h2>
-
-**softwarencodercopylist**, macOS için geliştirdiğim süper hafif bir üst menü çubuğu (menu bar) uygulamasıdır. Kopyaladığınız her şeyi takip eder. Tamamen macOS'un kendi yerel dili Swift ile geliştirilmiştir ve son 100 kopyalama işleminizi hafızasında tutar.
-
-### ✨ Özellikler
-- **🚀 Ultra Hızlı:** Tamamen Swift ve AppKit ile kodlandı – ağır web tabanlı (Electron vb.) teknolojiler içermez!
-- **🗂️ 100 Öğe Hafızası:** Kopyaladığınız en son 100 metni sizin için saklar.
-- **🖱️ Menü Çubuğunda Yaşar:** Mac'inizin sağ üst köşesindeki menüye gizlice yerleşir, kalabalık yapmaz.
-- **🧹 Tek Tıkla Temizlik:** Hafızayı anında sıfırlama seçeneği.
-- **🚫 Dock'u İşgal Etmez:** Alt taraftaki (Dock) uygulama simgelerinizin arasında kalabalık yaratmaz. Arka planda sessiz çalışır.
-- **🎨 Özel İkon:** `copy.png` tabanlı özel menü ikonu.
-
-### 🛠️ Kurulum ve Kullanım
-Bu projeyi derlemek için devasa Xcode'u kurmanıza gerek yok, sadece komut satırı yeterli!
-
-1. Projeyi bilgisayarınıza indirin (clone):
-   ```bash
-   git clone https://github.com/yourusername/softwarencodercopylist.git
-   ```
-2. Derleme script'ini çalıştırın:
-   ```bash
-   cd softwarencodercopylist
-   sh build.sh
-   ```
-3. Oluşan `softwarencodercopylist.app` uygulamasına çift tıklayarak çalıştırın! 🚀
-
-### 💻 Kullanılan Teknolojiler
-- Swift dökümanı
-- AppKit (Cocoa)
-- macOS Menu Bar API (`NSStatusItem`)
-- Shell / Bash Scripts (İkon oluşturma ve `.app` derleme işlemleri için)
-
----
 
 <div align="center">
   <br>
